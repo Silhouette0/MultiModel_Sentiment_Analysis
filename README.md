@@ -83,7 +83,7 @@ cd code
 sh train.sh 0
 ```
 
-<img src="https://github.com/Silhouette0/MultiModel_Sentiment_Analysis/img/1.png" width=700>
+<img src="https://github.com/Silhouette0/MultiModel_Sentiment_Analysis/blob/main/img/1.png" width=700>
 
 此时得到的结果为根据 MVSA 预训练数据集训练出的预训练模型。
 
@@ -99,7 +99,7 @@ sh train.sh 0
 sh train.sh 0
 ```
 
-<img src="https://github.com/Silhouette0/MultiModel_Sentiment_Analysis/img/2.png" width=700>
+<img src="https://github.com/Silhouette0/MultiModel_Sentiment_Analysis/blob/main/img/2.png" width=700>
 
 此时得到的模型即为根据 MVSA 预训练模型进行微调之后的实验数据集上的训练结果。
 
@@ -127,7 +127,7 @@ sh test.sh 0
 sh train.sh 0
 ```
 
-<img src="https://github.com/Silhouette0/MultiModel_Sentiment_Analysis/img/5.png" width=700>
+<img src="https://github.com/Silhouette0/MultiModel_Sentiment_Analysis/blob/main/img/5.png" width=700>
 
 
 
@@ -139,7 +139,7 @@ sh train.sh 0
 sh train.sh 0
 ```
 
-<img src="https://github.com/Silhouette0/MultiModel_Sentiment_Analysis/img/3.png" width=700>
+<img src="https://github.com/Silhouette0/MultiModel_Sentiment_Analysis/blob/main/img/3.png" width=700>
 
 
 
@@ -151,7 +151,7 @@ sh train.sh 0
 sh train.sh 0
 ```
 
-<img src="https://github.com/Silhouette0/MultiModel_Sentiment_Analysis/img/4.png" width=700>
+<img src="https://github.com/Silhouette0/MultiModel_Sentiment_Analysis/blob/main/img/4.png" width=700>
 
 
 
