@@ -87,7 +87,7 @@ sh train.sh 0
 
 此时得到的结果为根据 MVSA 预训练数据集训练出的预训练模型。
 
-训练结束后，选择 checkpoint 文件夹下效果最好的模型，更改**（main.py）**第 137 行的内容为：：
+训练结束后，选择 checkpoint 文件夹下效果最好的模型，更改（main.py）第 137 行的内容为：：
 
 ```python
 	torch.load("./checkpoint/.../xxx.pth"), strict=True)  # 效果最好的模型路径
@@ -103,7 +103,7 @@ sh train.sh 0
 
 此时得到的模型即为根据 MVSA 预训练模型进行微调之后的实验数据集上的训练结果。
 
-选择其中最好的结果，更改**（get_text_label.py）**第 158 行相应代码为：
+选择其中最好的结果，更改（get_text_label.py）第 158 行相应代码为：
 
 ```python
 	model_path = "./checkpoint/.../xxx.pth"  # 效果最好的模型路径
